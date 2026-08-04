@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: static-website
-        image: your-docker-hub-username/static-website:replaceImageTag
+        image: salmanulfaris2332/static-website:replaceImageTag
         ports:
         - containerPort: 80
         resources:
