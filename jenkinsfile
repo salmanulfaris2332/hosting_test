@@ -1,10 +1,10 @@
 pipeline {
-agent any
+  agent any
   stages {
     stage('Checkout') {
       steps {
-    sh 'echo"checkout successfully"'
-       // git branch: 'main', url: 'https://github.com/Doom710/hosting_test'
+        sh 'echo "checkout successfully"'
+        // git branch: 'main', url: 'https://github.com/Doom710/hosting_test'
       }
     }
 
